@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+# Built by build.py (GitHub Actions rebuilds it on every push)
+public/

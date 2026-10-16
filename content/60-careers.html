@@ -1,0 +1,39 @@
+<!--
+path: /careers/
+title: Careers in Senior Care | Windsor Place of Wilmington, MA
+description: Join the team at Windsor Place, a family-owned assisted living and memory care community in Wilmington, MA. Caregiver, dining, activities and support roles.
+crumb: Careers
+priority: 0.5
+-->
+<section class="page-hero no-image">
+  <div class="wrap wrap-narrow">
+    <div>
+      {{breadcrumb}}
+      <h1>Work at Windsor Place</h1>
+      <p class="lead">Join a family-owned team where the owners know your name, and where doing the little things well is the whole job.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint" style="padding-top:2.5rem">
+  <div class="wrap contact-grid">
+    <form class="form-card" name="careers" action="/thank-you/" data-placeholder>
+      <h2 class="mt-0" style="font-size:var(--step-2)">Tell us about yourself</h2>
+      <p class="muted">We'll get in touch when a position that fits opens up.</p>
+      <div class="field-row">
+        <div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="c-phone">Phone</label><input id="c-phone" name="phone" type="tel" autocomplete="tel" required></div>
+      </div>
+      <div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="c-pos">Position you're interested in</label><input id="c-pos" name="position" placeholder="e.g. Personal care assistant, cook, activities"></div>
+      <div class="field"><label for="c-msg">Experience or comments <span class="hint">(optional)</span></label><textarea id="c-msg" name="message"></textarea></div>
+      <button class="btn btn-primary" type="submit">Send application</button>
+    </form>
+    <div class="prose">
+      <h2>Good to know</h2>
+      <p>Candidates are subject to a reference check and a Massachusetts CORI check.</p>
+      <p>Windsor Place is an Equal Opportunity Employer.</p>
+      <p>Questions about working here? Call <a href="tel:{{tel}}">{{phone}}</a>.</p>
+    </div>
+  </div>
+</section>
